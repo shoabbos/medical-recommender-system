@@ -1,0 +1,143 @@
+
+{% extends "basic.html" %}
+{% load static %}
+
+ 
+    {% block head %}
+ 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" type="text/css" rel="stylesheet" >
+
+{% endblock %}
+
+
+
+
+{% block body %}
+
+<div class="fon-image">
+
+<div class="container">
+  <div class="row">
+    
+
+    <div class="col-3"></div>
+
+    <div class="col-6">
+      
+<form action='signup_doctor' method="POST"">
+
+  <h1></b><center>Регистрация доктора</center></b></h1>
+  
+  {% csrf_token %}
+  
+  <center>
+      <div>
+        {% for message in messages %}
+        <div class="alert alert-warning" role="alert">
+            <h3 style="color: red;">{{message}}</h3>
+          </div>
+        {% endfor %}
+      </div>
+      </center>
+
+
+
+
+  <div class="input-container">
+    <i class="fa fa-user icon"></i>
+    <input class="input-field" type="text" placeholder="Логин" name="username" required>
+  </div>
+
+
+  <div class="input-container">
+    <i class="fa fa-user icon"></i>
+    <input class="input-field" type="text" placeholder="ФИО" name="name" required>
+  </div>
+
+  <div class="input-container">
+    <i class="fa fa-envelope icon"></i>
+    <input class="input-field" type="text" placeholder="Email" name="email" required>
+  </div>
+   <div class="input-container">
+    <i class="fa fa-calendar icon"></i>
+    <input class="input-field" type="date" placeholder="Дата рождения " name="dob" style="width: 50%;" required><pre> Дата рождения    </pre>
+  </div>
+
+  
+  <div class="input-container">
+  <i class="fa fa-genderless icon"></i>
+  <input class="radio-btn" type="radio" name="gender" value="Мужской " checked> Мужской 
+  <input class="radio-btn" type="radio" name="gender" value="Женский"> Женский
+ 
+ 
+  </div>
+  
+  
+  <div class="input-container">
+    <i class="fa fa-address-book icon"></i>
+    <input class="input-field" type="text" placeholder="Адрес" name="address" required>
+  </div>
+  <div class="input-container">
+    <i class="fa fa-phone icon"></i>
+    <input class="input-field" type="number" placeholder="Телефон" name="mobile" required>
+  </div>
+  
+ 
+  
+
+
+
+  <div class="input-container">
+    <i class="fa fa-address-book icon"></i>
+   
+          <select name="specialization">
+              <option disabled="disabled" selected="selected">Специализация</option>
+             <option>Ревматолог</option>
+               <option>Кардиолог</option>
+               <option>ЛОР-врач</option>
+               <option>Ортопед</option>
+               <option>Невролог</option>
+               <option>Аллерголог/иммунолог</option>
+               <option>Уролог</option>
+               <option>Дерматолог</option>
+               <option>Гастроэнтеролог</option>
+               <option>Другое</option>
+          </select>
+          <div class="select-dropdown"></div>
+  </div>
+
+
+
+  <div class="input-container">
+    <i class="fa fa-key icon"></i>
+    <input class="input-field" type="password" placeholder="Введите пароль" name="password" required>
+  </div>
+  
+  <div class="input-container">
+    <i class="fa fa-check icon"></i>
+    <input class="input-field" type="password" placeholder="Введите пароль еще раз" name="password1" required>
+  </div>
+
+
+
+  <button type="submit" class="btn">Зарегистрироваться</button>
+</form>
+
+      
+    </div>
+
+    <div class="col-3"></div>
+  </div>
+
+</div>
+
+  </div>
+
+  </body>
+</html>
+
+
+
+{% endblock %}

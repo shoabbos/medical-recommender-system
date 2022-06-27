@@ -1,0 +1,98 @@
+
+
+{% extends "basic.html" %}
+{% load static %}
+
+ 
+	{% block head %}
+	
+  <title>Медицинская рекомендательная система</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="{% static 'theme/style.css' %}">
+ <link rel="stylesheet" href="{% static 'homepage/css.css' %}">
+      <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+
+    <!-- Bootstrap CSS -->
+  
+    <script src="{% static 'jquery.js' %}"></script>
+
+
+
+{% endblock %}
+
+
+
+
+{% block body %}
+
+
+	
+
+
+
+  <div class="py-5 fon-image" >
+    <div class="container">
+      <div class="row">
+        <div class="p-5 col-lg-6">
+          <h1>Войти как доктор?</h1>
+
+     <form class="login100-form validate-form" action="sign_in_doctor" method="POST" >
+
+     	  {% csrf_token %}
+
+
+
+
+				<div class="wrap-input100 validate-input m-b-23" data-validate = "Username is reauired">
+ 	
+						<span class="label-input100">Логин</span>
+						<input class="form-control wrap-input100 validate-input m-b-23" type="text" name="username" placeholder="Напишите логин" required>
+						<span class="focus-input100" data-symbol="&#xf206;"></span>
+					</div>
+
+										<div class="wrap-input100 validate-input" data-validate="Password is required">
+						<span class="label-input100">Пароль</span>
+						<input class="form-control wrap-input100 validate-input" type="password" name="password" placeholder="Напишите пароль" required>
+
+						<div class="text-right p-t-8 p-b-31">
+						<a href="#">
+						
+						</a>
+					</div>
+					
+			
+						<span class="focus-input100" data-symbol="&#xf190;"></span>
+					</div>
+							<center>
+							<div>
+							  {% for message in messages %}
+							  <h3 style="color: blue;">{{message}}</h3>
+							  {% endfor %}
+							</div>
+							</center>
+							<br>
+
+
+
+				
+
+<button type="submit" class="btn btn-primary login100-form-btn">Войти</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+	<div id="dropDownSelect1"></div>
+	
+
+
+	{% endblock %}
+
+
+

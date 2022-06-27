@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4d40a308-dfdd-4f65-abfc-39fdec49631d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/main_app/models/diseaseinfo.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/main_app/models/diseaseinfo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/main_app/tests/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/main_app/tests/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/main_app/utils/collections.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/main_app/utils/collections.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/main_app/views/checkdisease.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/main_app/views/checkdisease.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/main_app/views/doctor_ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/main_app/views/doctor_ui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Capture1.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Capture2.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Capture3.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Capture4.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Capture5.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/basic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/consultation/consultation.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/consultation/consultation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/doctor/consultation_history/consultation_history.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/doctor/consultation_history/consultation_history.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/doctor/doctor_ui/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/doctor/doctor_ui/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/doctor/signin_page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/doctor/signin_page/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/doctor/signup_form/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/doctor/signup_form/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/homepage/admin.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/homepage/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/homepage/bgimg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/homepage/bootstrap/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/homepage/bootstrap/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/homepage/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/homepage/bootstrap/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/homepage/bootstrap/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/homepage/bootstrap/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/homepage/bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/homepage/bootstrap/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/homepage/bootstrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/homepage/bootstrap/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/homepage/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/homepage/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/homepage/bootstrap/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/homepage/bootstrap/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/homepage/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/homepage/bootstrap/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/homepage/bootstrap/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/homepage/bootstrap/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/homepage/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/homepage/bootstrap/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/homepage/c31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/homepage/c41.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/homepage/doctor.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/templates/homepage/doctor.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/homepage/gray.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/homepage/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/homepage/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/homepage/old.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/homepage/patient.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/homepage/s72.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/patient/checkdisease/checkdisease.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/patient/checkdisease/checkdisease.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/patient/checkdisease/dps.css" beforeDir="false" afterPath="$PROJECT_DIR$/templates/patient/checkdisease/dps.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/patient/patient_ui/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/patient/patient_ui/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/patient/signup_form/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/patient/signup_form/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trained_model" beforeDir="false" afterPath="$PROJECT_DIR$/trained_model" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2AcyCCf5UjGLskApKf3DoV6ILIe" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration name="disease" type="Python.DjangoServer" factoryName="Django server">
+      <module name="disease" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4d40a308-dfdd-4f65-abfc-39fdec49631d" name="Changes" comment="" />
+      <created>1655323037835</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1655323037835</updated>
+      <workItem from="1655323039275" duration="1406000" />
+      <workItem from="1655413103171" duration="2164000" />
+      <workItem from="1655475884446" duration="594000" />
+      <workItem from="1655536427585" duration="1817000" />
+      <workItem from="1655842667169" duration="823000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
